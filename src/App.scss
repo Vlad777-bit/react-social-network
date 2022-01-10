@@ -1,10 +1,11 @@
 .app {
-  width: 1366px;
+  width: 1200px;
   margin: 0 auto;
 
   padding: 15px 25px;
 
   display: grid;
+  justify-content: center;
 
   grid-template-rows: 74px 1fr;
   grid-template-columns: 2fr 10fr;
