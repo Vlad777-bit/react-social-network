@@ -1,31 +1,33 @@
-import './Navbar.scss';
+import styles from './Navbar.module.scss';
 
 const Navbar = () => {
+  const { nav, menu, list, link } = styles;
+
   return (
-    <nav className="nav">
-      <ul className="nav__menu">
-        <li className="nav__list">
-          <a href="#!" className="nav__link">
+    <nav className={nav}>
+      <ul className={menu}>
+        <li className={list}>
+          <a href="#!" className={link}>
             Profile
           </a>
         </li>
-        <li className="nav__list">
-          <a href="#!" className="nav__link">
+        <li className={list}>
+          <a href="#!" className={link}>
             Messages
           </a>
         </li>
-        <li className="nav__list">
-          <a href="#!" className="nav__link">
+        <li className={list}>
+          <a href="#!" className={link}>
             News
           </a>
         </li>
-        <li className="nav__list">
-          <a href="#!" className="nav__link">
+        <li className={list}>
+          <a href="#!" className={link}>
             Music
           </a>
         </li>
-        <li className="nav__list">
-          <a href="#!" className="nav__link">
+        <li className={list}>
+          <a href="#!" className={link}>
             Settings
           </a>
         </li>

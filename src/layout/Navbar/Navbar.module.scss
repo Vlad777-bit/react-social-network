@@ -1,0 +1,25 @@
+.nav {
+  grid-area: n;
+  background-color: #13ce66;
+}
+
+.menu {
+  padding: 10px 15px;
+}
+
+.list {
+  &:last-child {
+    margin-top: 50px;
+  }
+}
+
+.link {
+  color: #ffffff;
+  font-size: 34px;
+  line-height: 44px;
+  text-align: left;
+
+  &:hover {
+    color: rgb(184, 223, 184);
+  }
+}
