@@ -1,7 +1,7 @@
-import styles from './Header.module.scss';
+import style from './Header.module.scss';
 
 const Header = () => {
-  const { header, logo, link } = styles;
+  const { header, logo, link } = style;
 
   return (
     <header className={header}>

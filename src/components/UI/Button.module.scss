@@ -1,0 +1,22 @@
+.btn {
+  background-color: #0cb658;
+  width: 162px;
+  height: 36px;
+  border: none;
+  float: right;
+  cursor: pointer;
+  padding-left: 22px;
+
+  // text
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: left;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #8eeeb9;
+    color: #47525e;
+  }
+}

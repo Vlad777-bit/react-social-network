@@ -1,7 +1,7 @@
-import styles from './Navbar.module.scss';
+import style from './Navbar.module.scss';
 
 const Navbar = () => {
-  const { nav, menu, list, link } = styles;
+  const { nav, menu, list, link } = style;
 
   return (
     <nav className={nav}>
