@@ -13,5 +13,12 @@
 
   grid-template-areas:
     'h h'
-    'n p';
+    'n c';
+}
+
+.app-content {
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
