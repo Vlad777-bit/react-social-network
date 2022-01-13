@@ -22,4 +22,11 @@
   &:hover {
     color: rgb(184, 223, 184);
   }
+
+  &_active {
+    color: rgb(184, 223, 184);
+    font-size: 34px;
+    line-height: 44px;
+    text-align: left;
+  }
 }
